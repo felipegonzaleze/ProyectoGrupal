@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #666666;
+    background-color: #000101;
 }
 
 .nav-container > * {
@@ -34,7 +34,14 @@
     gap: 25px;
 }
 
+.botones > a {
+    color: #ffab22;
+}
+
+a {
+    text-decoration: none;
+}
+
 a:visited {
-    color: white;
     text-decoration: none;
 }
