@@ -47,10 +47,8 @@ Este es un proyecto grupal. Para contribuir:
 
 1. Crea tu componente en la carpeta `src/components/`
 2. Importa y usa el componente en `App.jsx` o donde sea necesario
-3. Sigue las convenciones de nomenclatura existentes
 
 ### Estilos
 
 - Los estilos globales van en `src/index.css`
 - Los estilos específicos de componentes van en archivos `.css` junto al componente
-- Se utiliza Ant Design para componentes UI estándar
