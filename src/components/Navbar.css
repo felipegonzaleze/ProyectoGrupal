@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+#forgeLogo {
+    width: 100px;
+    height: 70px;
+}
+
+.nav-container {
+    padding: 10px 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #666666;
+}
+
+.nav-container > * {
+  flex: 1;
+  text-align: center;
+}
+
+.nav-container > h1 {
+    color: #fc6802;
+}
+
+.botones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
