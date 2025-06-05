@@ -15,7 +15,7 @@ Una aplicación web moderna desarrollada con React y Vite
 
 1. Clona el repositorio:
 ```bash
-git clone [URL_DEL_REPOSITORIO]
+git clone https://github.com/felipegonzaleze/ProyectoGrupal.git
 cd proyectogrupal
 ```
 
