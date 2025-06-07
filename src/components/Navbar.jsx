@@ -6,9 +6,9 @@ export const Navbar = () => {
         <div className="nav-container">
             <img id="forgeLogo" src={forgeLogo} alt="Logo Fundación Forge" />
             <div className="botones">
-                <a href="">About us</a>
-                <a href="">Contáctanos</a>
-                <a href="">Mapa</a>
+                <a href="#about-us">Sobre nosotros</a>
+                <a href="#contactanos">Contáctanos</a>
+                <a href="mapa">Mapa</a>
             </div>
         </div>
     );

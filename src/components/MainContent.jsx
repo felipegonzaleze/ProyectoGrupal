@@ -1,6 +1,6 @@
 export const MainContent = () => {
     return (
-        <div className="container">
+        <div className="maincontent-container">
             
         </div>
     )  
