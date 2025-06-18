@@ -148,7 +148,9 @@ p, li {
   border-radius: 10px;
 }
 .video-container a {
-  display: block;
+  display: inline-block;
+  width: 280px; /* ✅ Mismo ancho para todos */
+  text-align: center;
   padding: 10px 15px;
   background-color: #32475b;
   color: white;
@@ -159,4 +161,23 @@ p, li {
 }
 .video-container a:hover {
   background-color: #1f2e3e;
+}
+
+.seccion-test {
+text-align: center;
+}
+
+.seccion-test button {
+  margin: 20px auto;
+  cursor: pointer;
+  padding: 10px 40px;
+  color: white;
+  font-weight: bold;
+  background-color: #5c6a84;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+
+.seccion-test button:hover {
+  background-color: #555;
 }
