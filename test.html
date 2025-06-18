@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Múltiple</title>
+    <link rel="stylesheet" href="css/estilosTest.css">
+</head>
+    <body>
+    <div class="quiz-container">
+        <h1>Quiz de Cultura General</h1>
+        <form id="quiz-form">
+        <div class="pregunta" data-correcta="b">
+            <p>1. ¿Cuál es la capital de Argentina?</p>
+            <label><input type="radio" name="q1" value="a"> Madrid</label><br>
+            <label><input type="radio" name="q1" value="b"> Ciudad Autónoma de Buenos Aires</label><br>
+            <label><input type="radio" name="q1" value="c"> Berlín</label>
+        </div>
+
+        <div class="pregunta" data-correcta="c">
+            <p>2. ¿Qué gas respiramos principalmente?</p>
+            <label><input type="radio" name="q2" value="a"> Hidrógeno</label><br>
+            <label><input type="radio" name="q2" value="b"> Dióxido de carbono</label><br>
+            <label><input type="radio" name="q2" value="c"> Oxígeno</label>
+        </div>
+
+        <div class="pregunta" data-correcta="a">
+            <p>3. ¿Cuál es el océano más grande?</p>
+            <label><input type="radio" name="q3" value="a"> Océano Pacífico</label><br>
+            <label><input type="radio" name="q3" value="b"> Océano Atlántico</label><br>
+            <label><input type="radio" name="q3" value="c"> Océano Índico</label>
+        </div>
+
+        <br>
+        <button type="submit">Ver resultados</button>
+        </form>
+        <div id="resultado"></div>
+    </div>
+    
+    <script src="/java/test.js"></script>
+    </body>
+</html>

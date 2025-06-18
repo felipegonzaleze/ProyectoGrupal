@@ -1,0 +1,159 @@
+body{
+margin: 0;
+border: 0;
+padding: 0;
+font-family: "Tilt Warp", sans-serif;
+color: #111;
+}
+
+/*Barra de navegacion*/
+nav img{
+    width: 100%;
+    height: 15%;
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -70px;
+    margin-right: 40px;
+
+}
+
+
+.nav li{
+    margin-left: 20px;
+}
+
+.nav a {
+  color: white;
+  padding: 10px 15px;
+  font-weight: 400;
+}
+
+
+/* CONTENIDO PRINCIPAL */
+.container-autoconocimiento {
+  max-width: 800px;
+  margin: 70px auto;
+  text-align: center;
+}
+
+.container-autoconocimiento h1{
+    font-size: 45px;
+}
+
+
+.container-autoconocimiento p {
+  margin: 10px auto;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+
+.container-pregunta{
+    margin: 0 0 -10px 50px;
+    font-size: 20px;
+}
+
+.container-pregunta p {
+  margin: 10px 300px 0 0;
+  text-align: start;
+  font-family: "Open Sans", sans-serif;
+}
+/* SECCIONES DE AUTOCONOCIMIENTO */
+
+section{
+    background-color: #40516d;
+    height: 230px;
+    width: 200px;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    margin: 70px 80px 0 20px;
+    
+}
+
+ .seccion-autoconocimiento h4{
+    font-size: 25px;
+    text-align: start;
+    margin: 20px 0 0 -130px;
+}
+
+.seccion-autoconocimiento{
+    display: flex;
+    justify-content: center;
+
+}
+
+h5{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-top: 70px;
+}
+
+section p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+
+section button {
+    padding: 10px 40px;
+    color: white;
+    font-weight: bold;
+    background-color: #5c6a84;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+section button:hover {
+  background-color: #555;
+}
+
+
+/*test*/
+.seccion-test h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.seccion-test {
+text-align: center;
+}
+
+.seccion-test button {
+ margin: 20px auto;
+  cursor: pointer;
+  padding: 10px 40px;
+  color: white;
+  font-weight: bold;
+  background-color: #5c6a84;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+
+.seccion-test button:hover {
+  background-color: #555;
+}
+/* Footer */
+
+.footer {
+  background: #333;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.redes img {
+  margin: 1 px;
+}
+/* MENSAJE FINAL */
