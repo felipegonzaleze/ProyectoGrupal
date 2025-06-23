@@ -19,10 +19,10 @@
         </header>
 
         <main class="contenido">
-        <h1>Páginas de cursos</h1>
+        <h1>Videos de cursos</h1>
 
         
-        <p>En este apartado le vamos a estar compartiendo los link a páginas con cursos pagos y gratuitos ,además hay videos con creadores de cursos:</p>
+        <h3>En este apartado le vamos a estar compartiendo los cursos de programación</h3>
 
         <!-- <section>
             <h3>¿Por qué es importante la educación continua?</h3>
@@ -30,7 +30,7 @@
         </section> -->
         </main>
 
-<div class="videos">
+<!-- <div class="videos">
     <h3>Cursos generales</h3>
 
     <div class="video-container">
@@ -59,7 +59,83 @@
             </a>
         </div>
     </div>
+</div> -->
+<div class="carrusel-cursos">
+  <div class="carrusel-track" id="carruselTrack">
+    <div class="curso">
+      <a href="https://www.youtube.com/watch?v=HtKqSJX7VoM&t=64s" target="_blank">
+        <img src="https://img.icons8.com/color/96/python--v1.png" alt="Python" />
+        <p>Curso de Python desde CERO</p>
+      </a>
+    </div>
+    <div class="curso">
+      <a href="https://www.youtube.com/watch?v=ELSm-G201Ls&t=36240s" target="_blank">
+        <img src="https://img.icons8.com/color/96/html-5--v1.png" alt="HTML/CSS" />
+        <p>Curso de HTML y CSS desde CERO</p>
+      </a>
+    </div>
+    <div class="curso">
+      <a href="https://www.youtube.com/watch?v=1glVfFxj8a4&t=2935s" target="_blank">
+        <img src="https://skillforge.com/wp-content/uploads/2020/10/javascript-1817x2048.png" alt="Educación" />
+        <p>¿Qué es la educación continua?</p>
+      </a>
+    </div>
+    <div class="curso">
+      <a href="https://www.youtube.com/watch?v=fdfXkiuVHp4" target="_blank">
+        <img src="https://img.icons8.com/color/96/java-coffee-cup-logo--v1.png" alt="POO" />
+        <p>Programación Orientada a Objetos</p>
+      </a>
+    </div>
+    
+  </div>
 </div>
+
+<div class="carrusel-controles">
+  <!-- <button onclick="moverCarrusel(-1)">‹</button>
+  <button onclick="moverCarrusel(1)">›</button> -->
+  <button onclick="moverCarrusel('carruselTrack', -1)">‹</button>
+  <button onclick="moverCarrusel('carruselTrack', 1)">›</button>
+</div>
+
+<h3>Cursos de cocinas</h3>
+
+    <div class="carrusel-cursos">
+        <div class="carrusel-track" id="carruselTrack2">
+            <div class="curso">
+                <a href="https://www.youtube.com/watch?v=izN242KZYIA" target="_blank">
+                <img src="img/COCINA-SALUDABLE-de-tamano-mediano.jpeg" alt="Python" />
+                <p>Curso de cocina basica</p>
+                </a>
+            </div>
+            <div class="curso">
+                <a href="https://www.youtube.com/watch?v=dQyIxuq8uho&list=PLeHX647vHtKecY0f3lkBmCWKzBDqnOtlg" target="_blank">
+                <img src="img/cocinaSaludable.jpg" alt="HTML/CSS" />
+                <p>Curso de cocina saludable</p>
+                </a>
+            </div>
+            <div class="curso">
+                <a href="https://www.youtube.com/watch?v=IOyJzC6gUQE&list=PLahRocFzPsrPJCBBUEX_RyPcNnGB4ih8x" target="_blank">
+                <img src="https://media.istockphoto.com/id/1272631829/es/vector/chef-hat-con-batidor-de-cocina-y-esp%C3%A1tula-etiqueta-insignia-p%C3%B3ster-para-el-estudio-de-comida.jpg?s=612x612&w=0&k=20&c=LqpUw-rraDkjrgav-dIXIl2dWUnVt2omoxIgs2rApCw=" alt="Educación" />
+                <p>Curso introducion a la gastronomia</p>
+                </a>
+            </div>
+            <div class="curso">
+                <a href="https://www.youtube.com/watch?v=6jMQVVibVQA&list=PLIIlqor45-hiZQy98i9dRJH4TG9-b2NtM" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTehyJAmNYSKlEf6K1yjRMU4rKFUG-jcX6-sw&s" alt="POO" />
+                <p>Curso de jefe de cocina</p>
+                </a>
+            </div>
+    
+        </div>
+    </div>
+
+<div class="carrusel-controles">
+  <!-- <button onclick="moverCarrusel(-1)">‹</button>
+  <button onclick="moverCarrusel(1)">›</button> -->
+    <button onclick="moverCarrusel('carruselTrack2', -1)">‹</button>
+  <button onclick="moverCarrusel('carruselTrack2', 1)">›</button>
+</div>
+    <p class="frase-final">“Aprender algo nuevo hoy es invertir en tu mejor versión del mañana.”</p>
 
     </div>
 
@@ -77,6 +153,7 @@
         </a>
         </div>
     </footer>
+    <script src="java/index.js"></script>
     </body>
 </html>
 

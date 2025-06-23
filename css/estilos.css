@@ -74,14 +74,22 @@ p, li {
   max-width: 900px;
 }
 
-.tarjeta {
+/* .tarjeta {
   width: 180px;
   padding: 4px;
   border-radius: 10px;
   color: white;
   text-align: center;
+} */
+.tarjeta {
+  width: 180px;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
-
 .tarjeta h5 {
   margin: 0.5em 0;
 }
@@ -104,6 +112,7 @@ p, li {
 .icono {
   width: 100px;
   margin-bottom: 10px;
+  margin-left: 40px;
 }
 
 .rojo {
@@ -149,7 +158,7 @@ p, li {
 }
 .video-container a {
   display: inline-block;
-  width: 280px; /* ✅ Mismo ancho para todos */
+  width: 280px;
   text-align: center;
   padding: 10px 15px;
   background-color: #32475b;
@@ -180,4 +189,120 @@ text-align: center;
 
 .seccion-test button:hover {
   background-color: #555;
+}
+
+
+.carrusel-cursos {
+  max-width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  padding: 10px 0;
+  background-color: floralwhite;
+}
+
+.carrusel-track {
+  display: flex;
+  transition: transform 0.5s ease;
+  gap: 20px;
+}
+
+.curso {
+  min-width: 250px;
+  text-align: center;
+}
+
+.curso img {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.curso p {
+  font-weight: bold;
+  color: #32475b;
+}
+
+.curso a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.carrusel-controles {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.carrusel-controles button {
+  padding: 10px 15px;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  background-color: #32475b;
+  color: white;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.carrusel-controles button:hover {
+  background-color: #1f2e3e;
+}
+.frase-final {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 18px;
+  font-style: italic;
+  color: #333;
+}
+.bloque-final {
+  margin-top: 50px;
+  padding-bottom: 40px;
+  margin-top: -10px;
+}
+.explorar-mas {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.boton-accion {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #32475b;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.boton-accion:hover {
+  background-color: #1f2e3e;
+}
+
+.beneficios-educacion {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.beneficios-educacion h4 {
+  margin-bottom: 15px;
+  color: #32475b;
+}
+
+.beneficios {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.beneficios img {
+  width: 80px;
+}
+
+.beneficios p {
+  font-weight: bold;
+  color: #32475b;
+  margin-top: 8px;
 }
