@@ -21,7 +21,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background: url('./img/header.svg') center/cover;
+  background: url('../img/header.svg') center/cover;
   backdrop-filter: blur(10px);
   z-index: 1000;
   padding: 1.5rem 0;
