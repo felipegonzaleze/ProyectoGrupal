@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Páginas de Cursos - Tu Futuro Profesional</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="detail-page">
+    
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-links">
+                <a href="../vista_home/home.html" class="nav-link">INICIO</a>
+                <a href="#about" class="nav-link">SOBRE NOSOTROS</a>
+                <a href="#contact" class="nav-link">CONTACTANOS</a>
+            </div>
+        </nav>
+    </header>
+
+    
+    <main class="main-content">
+        <div class="container">
+            
+            <section class="back-section">
+                <a href="./index_vista_educacion.html" class="back-btn">← VOLVER</a>
+            </section>
+            
+            
+            <section class="home-title-section">
+                <h1 class="home-title">PÁGINAS DE CURSOS</h1>
+                <p class="home-quote">"En este apartado te compartimos las páginas más populares sobre cursos. Encontrarás opciones gratuitas y de pago para potenciar tu aprendizaje."</p>
+            </section>
+            
+            
+            <section class="question-section">
+                <h2 class="question-title">Plataformas de Aprendizaje Online</h2>
+                <p class="question-description">
+                    Descubre las mejores plataformas educativas donde podrás encontrar cursos de alta calidad en diferentes áreas. 
+                    Desde programación y tecnología hasta habilidades blandas y desarrollo personal. Muchas ofrecen contenido gratuito 
+                    y certificaciones reconocidas internacionalmente.
+                </p>
+            </section>
+
+            
+            <section class="services-section">
+                <h2 class="services-title">PLATAFORMAS EDUCATIVAS POPULARES</h2>
+                <div class="carrusel-cursos">
+                    <div class="carrusel-track" id="carruselTrack">
+                        <div class="curso">
+                            <a href="https://www.udemy.com/es/?srsltid=AfmBOoqpM6nj5dDHWK65gfs0pzzC1CP17gZH94eLZlxpYCHpUlArnkUC" target="_blank">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbC9JNrtvj6sdkH2pDn8Xg2u5uy_TTZ8Mzg&s" alt="Udemy" />
+                                <p>Udemy</p>
+                            </a>
+                        </div>
+                        <div class="curso">
+                            <a href="https://www.coursera.org/" target="_blank">
+                                <img src="img/coursera.png" alt="Coursera" />
+                                <p>Coursera</p>
+                            </a>
+                        </div>
+                        <div class="curso">
+                            <a href="https://www.edx.org/" target="_blank">
+                                <img src="img/edx.png" alt="EdX" />
+                                <p>EdX</p>
+                            </a>
+                        </div>
+                        <div class="curso">
+                            <a href="https://skillshop.exceedlms.com/student/catalog" target="_blank">
+                                <img src="img/google.png" alt="Google Actívate" />
+                                <p>Google Actívate</p>
+                            </a>
+                        </div>
+                        <div class="curso">
+                            <a href="https://claseflix.io/" target="_blank">
+                                <img src="https://pbs.twimg.com/profile_images/1898773684095008768/_B4sqafp_400x400.png" alt="Claseflix" />
+                                <p>Claseflix</p>
+                            </a>
+                        </div>
+                        <div class="curso">
+                            <a href="https://www.santanderopenacademy.com/" target="_blank">
+                                <img src="https://assets.santanderopenacademy.com/images/logos/logo-soa.svg" alt="Santander Open Academy" />
+                                <p>Santander Open Academy</p>
+                            </a>
+                        </div>
+                        <div class="curso">
+                            <a href="https://desafiolatam.com/cursos_gratuitos/" target="_blank">
+                                <img src="https://desafiolatam.com/wp-content/uploads/2024/04/logo-desafio-color.png" alt="Desafío Latam" />
+                                <p>Desafío Latam</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carrusel-controles">
+                    <button onclick="moverCarrusel('carruselTrack', -1)">‹</button>
+                    <button onclick="moverCarrusel('carruselTrack', 1)">›</button>
+                </div>
+            </section>
+
+            
+            <section class="resources-section">
+                <h2 class="resources-title">VENTAJAS DE LAS PLATAFORMAS ONLINE</h2>
+                <div class="resources-grid">
+                    <div class="resource-item">
+                        <div class="resource-icon">🎓</div>
+                        <h3 class="resource-title">Flexibilidad de Horarios</h3>
+                        <p class="resource-description">
+                            Aprende a tu propio ritmo, cuando y donde quieras. Ideal para personas con horarios complicados.
+                        </p>
+                    </div>
+                    <div class="resource-item">
+                        <div class="resource-icon">💰</div>
+                        <h3 class="resource-title">Opciones Gratuitas</h3>
+                        <p class="resource-description">
+                            Muchas plataformas ofrecen cursos gratuitos de alta calidad con certificados incluidos.
+                        </p>
+                    </div>
+                    <div class="resource-item">
+                        <div class="resource-icon">🌍</div>
+                        <h3 class="resource-title">Acceso Global</h3>
+                        <p class="resource-description">
+                            Accede a cursos de universidades y expertos de todo el mundo desde cualquier lugar.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            
+            <section class="question-section">
+                <div class="frase-final">
+                    <p class="home-quote"><em>"¡Invertir en tu educación es la mejor decisión para tu futuro!"</em></p>
+                </div>
+
+                <div class="explorar-mas" style="text-align: center; margin-top: 2rem;">
+                    <a href="./casilleroQueEs.html" class="service-btn" style="margin: 0 1rem;">¿Qué es educación continua?</a>
+                    <a href="./casilleroCursosGenerales.html" class="service-btn" style="margin: 0 1rem;">Ver videos de cursos</a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-media">
+                <a href="#" class="social-link" aria-label="Facebook">
+                    <img src="../img/facebook.svg" alt="Facebook" class="social-icon">
+                </a>
+                <a href="#" class="social-link" aria-label="Instagram">
+                    <img src="../img/instagram.svg" alt="Instagram" class="social-icon">
+                </a>
+                <a href="#" class="social-link" aria-label="LinkedIn">
+                    <img src="../img/linkedin.svg" alt="LinkedIn" class="social-icon">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="java/index.js"></script>
+</body>
+</html>
+

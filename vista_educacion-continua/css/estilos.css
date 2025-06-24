@@ -1,0 +1,410 @@
+/* General */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+/* HEADER */
+.fondo-compartido {
+  background-image: url(../img/img-header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+header{
+  height: 6rem;
+  position: relative  ;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+header > nav {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  align-items: center;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+.logo{
+  flex: 1;
+  margin: 0.5rem 0 0 5rem;
+}
+.logo > a > img{
+  width: 5rem;
+}
+
+header > nav > a{
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.sec-nav{
+  box-shadow: 0 30px 50px rgb(185, 184, 184);
+  scroll-margin-top: 7.5rem;
+  height: 15rem;
+}
+
+.title-sec-nav{
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-weight: 900;
+  margin-top: 6rem;
+}
+
+.text-sec-nav{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.header-button {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.header-button > button{
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 999px;
+  padding: 6px 16px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.header-button > button:hover {
+  background-color: white;
+  color: black;
+}
+a{
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+/* li{
+  text-decoration: none;
+} */
+
+.contenedor {
+  flex: 1;
+}
+
+h1, h3, h4, h5 {
+  text-align: center;
+  margin: 1px;
+  padding: 10px;
+}
+
+.cita {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 1px;
+  padding-bottom: 5px ;
+}
+
+p, li {
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.detalle {
+  font-weight: normal;
+}
+
+
+/* Navbar */
+/* .navbar {
+  background-image: url("/img/img-header.png");
+  background-size: cover;
+  background-position: center;
+  padding: 1em 0;
+  height: 100px;
+}
+
+.navbar nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+} */
+
+/* Tarjetas */
+.tarjetas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin: 1em auto;
+  max-width: 900px;
+}
+
+/* .tarjeta {
+  width: 180px;
+  padding: 4px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+} */
+.tarjeta {
+  width: 180px;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.tarjeta h5 {
+  margin: 0.5em 0;
+}
+
+.tarjeta button {
+    margin-top: 1em;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.azul {
+    background-color: #32475b;
+ /*    background-image: url(/img/cognitiva.png);Footer */
+}
+.icono {
+  width: 100px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+
+.rojo {
+    background-color: #641e16;
+}
+
+.morado {
+  background-color: #7d3c98;
+}
+
+.gris {
+  background-color: #979a9a;
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.redes img {
+  margin: 1 px;
+}
+
+.videos {
+  text-align: center;
+  margin-top: 2px;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1px;
+  border-radius: 10px;
+}
+.video-container a {
+  display: inline-block;
+  width: 280px;
+  text-align: center;
+  padding: 10px 15px;
+  background-color: #32475b;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+.video-container a:hover {
+  background-color: #1f2e3e;
+}
+
+.seccion-test {
+text-align: center;
+}
+
+.seccion-test button {
+  margin: 20px auto;
+  cursor: pointer;
+  padding: 10px 40px;
+  color: white;
+  font-weight: bold;
+  background-color: #5c6a84;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+
+.seccion-test button:hover {
+  background-color: #555;
+}
+
+
+.carrusel-cursos {
+  max-width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  padding: 10px 0;
+  background-color: floralwhite;
+}
+
+.carrusel-track {
+  display: flex;
+  transition: transform 0.5s ease;
+  gap: 20px;
+}
+
+.curso {
+  min-width: 250px;
+  text-align: center;
+}
+
+.curso img {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.curso p {
+  font-weight: bold;
+  color: #32475b;
+}
+
+.curso a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.carrusel-controles {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.carrusel-controles button {
+  padding: 10px 15px;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  background-color: #32475b;
+  color: white;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.carrusel-controles button:hover {
+  background-color: #1f2e3e;
+}
+.frase-final {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 18px;
+  font-style: italic;
+  color: #333;
+}
+.bloque-final {
+  margin-top: 50px;
+  padding-bottom: 40px;
+  margin-top: -10px;
+}
+.explorar-mas {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.boton-accion {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #32475b;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.boton-accion:hover {
+  background-color: #1f2e3e;
+}
+
+.beneficios-educacion {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.beneficios-educacion h4 {
+  margin-bottom: 15px;
+  color: #32475b;
+}
+
+.beneficios {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.beneficios img {
+  width: 80px;
+}
+
+.beneficios p {
+  font-weight: bold;
+  color: #32475b;
+  margin-top: 8px;
+}

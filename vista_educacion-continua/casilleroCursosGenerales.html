@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos de Cursos - Tu Futuro Profesional</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="detail-page">
+    
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-links">
+                <a href="../vista_home/home.html" class="nav-link">INICIO</a>
+                <a href="#about" class="nav-link">SOBRE NOSOTROS</a>
+                <a href="#contact" class="nav-link">CONTACTANOS</a>
+            </div>
+        </nav>
+    </header>
+
+    
+    <main class="main-content">
+        <div class="container">
+            
+            <section class="back-section">
+                <a href="./index_vista_educacion.html" class="back-btn">← VOLVER</a>
+            </section>
+            
+            
+            <section class="home-title-section">
+                <h1 class="home-title">VIDEOS DE CURSOS</h1>
+                <p class="home-quote">"En este apartado te compartimos los mejores cursos de programación y más para potenciar tu desarrollo profesional."</p>
+            </section>
+            
+            
+            <section class="services-section">
+                <h2 class="services-title">CURSOS DE PROGRAMACIÓN</h2>
+                <div class="carrusel-cursos">
+                    <div class="carrusel-track" id="carruselTrack">
+                        <div class="curso">
+                            <a href="https://www.youtube.com/watch?v=HtKqSJX7VoM&t=64s" target="_blank">
+                                <img src="https://img.icons8.com/color/96/python--v1.png" alt="Python" />
+                                <p>Curso de Python desde CERO</p>
+                            </a>
+                        </div>
+                        <div class="curso">
+                            <a href="https://www.youtube.com/watch?v=ELSm-G201Ls&t=36240s" target="_blank">
+                                <img src="https://img.icons8.com/color/96/html-5--v1.png" alt="HTML/CSS" />
+                                <p>Curso de HTML y CSS desde CERO</p>
+                            </a>
+                        </div>
+                        <div class="curso">
+                            <a href="https://www.youtube.com/watch?v=1glVfFxj8a4&t=2935s" target="_blank">
+                                <img src="https://skillforge.com/wp-content/uploads/2020/10/javascript-1817x2048.png" alt="JavaScript" />
+                                <p>Curso de JavaScript</p>
+                            </a>
+                        </div>
+                        <div class="curso">
+                            <a href="https://www.youtube.com/watch?v=fdfXkiuVHp4" target="_blank">
+                                <img src="https://img.icons8.com/color/96/java-coffee-cup-logo--v1.png" alt="POO" />
+                                <p>Programación Orientada a Objetos</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carrusel-controles">
+                    <button onclick="moverCarrusel('carruselTrack', -1)">‹</button>
+                    <button onclick="moverCarrusel('carruselTrack', 1)">›</button>
+                </div>
+            </section>
+
+            
+            <section class="services-section">
+                <h2 class="services-title">CURSOS DE COCINA</h2>
+                <div class="carrusel-cursos">
+                    <div class="carrusel-track" id="carruselTrack2">
+                        <div class="curso">
+                            <a href="https://www.youtube.com/watch?v=izN242KZYIA" target="_blank">
+                                <img src="img/COCINA-SALUDABLE-de-tamano-mediano.jpeg" alt="Cocina Básica" />
+                                <p>Curso de cocina básica</p>
+                            </a>
+                        </div>
+                        <div class="curso">
+                            <a href="https://www.youtube.com/watch?v=dQyIxuq8uho&list=PLeHX647vHtKecY0f3lkBmCWKzBDqnOtlg" target="_blank">
+                                <img src="img/cocinaSaludable.jpg" alt="Cocina Saludable" />
+                                <p>Curso de cocina saludable</p>
+                            </a>
+                        </div>
+                        <div class="curso">
+                            <a href="https://www.youtube.com/watch?v=IOyJzC6gUQE&list=PLahRocFzPsrPJCBBUEX_RyPcNnGB4ih8x" target="_blank">
+                                <img src="https://media.istockphoto.com/id/1272631829/es/vector/chef-hat-con-batidor-de-cocina-y-esp%C3%A1tula-etiqueta-insignia-p%C3%B3ster-para-el-estudio-de-comida.jpg?s=612x612&w=0&k=20&c=LqpUw-rraDkjrgav-dIXIl2dWUnVt2omoxIgs2rApCw=" alt="Gastronomía" />
+                                <p>Curso introducción a la gastronomía</p>
+                            </a>
+                        </div>
+                        <div class="curso">
+                            <a href="https://www.youtube.com/watch?v=6jMQVVibVQA&list=PLIIlqor45-hiZQy98i9dRJH4TG9-b2NtM" target="_blank">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTehyJAmNYSKlEf6K1yjRMU4rKFUG-jcX6-sw&s" alt="Jefe de Cocina" />
+                                <p>Curso de jefe de cocina</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carrusel-controles">
+                    <button onclick="moverCarrusel('carruselTrack2', -1)">‹</button>
+                    <button onclick="moverCarrusel('carruselTrack2', 1)">›</button>
+                </div>
+            </section>
+
+            
+            <section class="question-section">
+                <div class="frase-final">
+                    <p class="home-quote"><em>"Aprender algo nuevo hoy es invertir en tu mejor versión del mañana."</em></p>
+                </div>
+
+                <div class="explorar-mas" style="text-align: center; margin-top: 2rem;">
+                    <a href="./casilleroQueEs.html" class="service-btn" style="margin: 0 1rem;">¿Qué es educación continua?</a>
+                    <a href="./paginasPopularesCursos.html" class="service-btn" style="margin: 0 1rem;">Explorar páginas de cursos</a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-media">
+                <a href="#" class="social-link" aria-label="Facebook">
+                    <img src="../img/facebook.svg" alt="Facebook" class="social-icon">
+                </a>
+                <a href="#" class="social-link" aria-label="Instagram">
+                    <img src="../img/instagram.svg" alt="Instagram" class="social-icon">
+                </a>
+                <a href="#" class="social-link" aria-label="LinkedIn">
+                    <img src="../img/linkedin.svg" alt="LinkedIn" class="social-icon">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="java/index.js"></script>
+</body>
+</html>
+
