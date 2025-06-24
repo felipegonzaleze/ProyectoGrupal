@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Tilt Warp", sans-serif;
+  color: #111;
+  background-color: #fff;
+}
+
+/* --- NAVBAR --- */
+nav img {
+  width: 100%;
+  height: 100px; 
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -70px;
+  margin-right: 40px;
+}
+
+.nav li {
+  margin-left: 20px;
+}
+
+.nav a {
+  color: white;
+  padding: 10px 15px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* --- CARTEL EMOCIONAL (textos superiores) --- */
+.container-autoconocimiento {
+  max-width: 800px;
+  margin: 70px auto;
+  text-align: center;
+}
+
+.container-test h1 {
+  font-size: 45px;
+}
+
+/* --- CAJA CON TEST -*/
+.container-test {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.container-test img {
+  width: 75%;
+  border-radius: 5%;
+  margin: 1%;
+
+}
+
+/* --- TEXTO ENCIMA DE LA IMAGEN --- */
+.container-interior {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.container-interior h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.container-interior h4 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  max-width: 40%;
+}
+
+.container-interior p {
+  font-weight: bold;
+}
+
+/* --- BOTÓN SIGUIENTE --- */
+.btn-siguiente {
+  border: none;
+  margin-top: 30px;
+  background-color: transparent;
+}
+
+button img {
+  position: relative;
+  right: 5px;
+  bottom: 14px;
+
+
+}
+
+/* TEST DENTRO  */
+.titulo{ 
+width: 30%;
+}
+
+.btn-respuestas{
+  background-color: #ffffff;
+  border: 0;
+  padding: 1%;
+  margin: 2%;
+  width: 50%;
+  font-size: 200%;
+  border-radius: 15px;
+  font-family: "Tilt Warp", sans-serif;
+}
+
+.resultado{
+  width: 30%;
+  font-size: 150%;
+}
+
+.buttonreiniciar{
+  background-color: #ffffff;
+  border: 0;
+  padding: 1%;
+  margin: 2%;
+  width: 40%;
+  font-size: 150%;
+  border-radius: 15px;
+  font-family: "Tilt Warp", sans-serif;
+}
